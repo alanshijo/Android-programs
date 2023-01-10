@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/ios"
+        android:layout_width="424dp"
+        android:layout_height="328dp"
+        android:visibility="gone"
+        android:src="@drawable/android_logo" />
+
+    <ImageView
+        android:id="@+id/android"
+        android:layout_width="match_parent"
+        android:layout_height="490dp"
+        android:src="@drawable/apple_icon" />
+
+    <TextView
+        android:id="@+id/switchbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click the image to switch"
+        android:layout_marginTop="300dp"
+        android:textSize="25dp"
+        android:layout_gravity="center"/>
+
+</FrameLayout>
